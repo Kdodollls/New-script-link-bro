@@ -22,12 +22,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main
 elseif gameId == PrisonlifeGameId then
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/elliexmln/PrizzLife/main/pladmin.lua'))()
-elseif gameId == PetsGameId then
+elseif gameId == PetsGameId the
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/PetTrading"))()
-elseif gameId == criminalvsswatGameId then
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kdodollls/ALL-SCRIPT-DON-T-STEAL-BRO/main/Criminal%20Vs%20Swat"))();
 else
     warn("Sorry this game not supported. try to join supported games. More in discord.")
 end
